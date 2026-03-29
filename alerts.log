@@ -1,0 +1,498 @@
+[2026-03-28 15:19:02] EDR Started - Monitoring Active...
+[2026-03-28 15:19:34] ALERT: New Process [svchost.exe] (PID: 876) started by NT AUTHORITY\SYSTEM
+[2026-03-28 15:19:44] ALERT: New Process [Notepad.exe] (PID: 10384) started by WINDEV2407EVAL\User
+[2026-03-28 15:21:06] EDR Shutting down...
+[2026-03-28 15:21:12] EDR Started - Monitoring Active...
+[2026-03-28 15:22:17] ALERT: New Process [Notepad.exe] (PID: 7392) started by WINDEV2407EVAL\User
+[2026-03-28 15:23:06] EDR Shutting down...
+[2026-03-28 15:25:36] SYSTEM: Windows EDR Started - Monitoring Active...
+[2026-03-28 15:25:43] ALERT: New Process [backgroundTaskHost.exe] (PID: 4856) started by WINDEV2407EVAL\User
+[2026-03-28 15:25:43] ALERT: New Process [RuntimeBroker.exe] (PID: 7912) started by WINDEV2407EVAL\User
+[2026-03-28 15:25:43] ALERT: New Process [backgroundTaskHost.exe] (PID: 8836) started by WINDEV2407EVAL\User
+[2026-03-28 15:25:44] ALERT: New Process [MoUsoCoreWorker.exe] (PID: 3368) started by NT AUTHORITY\SYSTEM
+[2026-03-28 15:25:44] ALERT: New Process [RuntimeBroker.exe] (PID: 6496) started by WINDEV2407EVAL\User
+[2026-03-28 15:25:44] ALERT: New Process [backgroundTaskHost.exe] (PID: 10808) started by WINDEV2407EVAL\User
+[2026-03-28 15:26:16] ALERT: New Process [backgroundTaskHost.exe] (PID: 1684) started by WINDEV2407EVAL\User
+[2026-03-28 15:26:57] SYSTEM: EDR Shutting down by User...
+[2026-03-28 15:31:07] SYSTEM: Windows EDR Started - Active Defense Enabled...
+[2026-03-28 15:31:15] ALERT: New Process [CalculatorApp.exe] (PID: 2296) started by WINDEV2407EVAL\User
+[2026-03-28 15:31:29] ALERT: New Process [CalculatorApp.exe] (PID: 6788) started by WINDEV2407EVAL\User
+[2026-03-28 15:32:03] SYSTEM: EDR Shutting down by User...
+[2026-03-28 15:34:55] SYSTEM: Windows EDR Started - Active Defense Enabled...
+[2026-03-28 15:35:15] !!! CRITICAL: Forbidden Process cmd.exe detected. Attempting to kill...
+[2026-03-28 15:35:15] SUCCESS: Process cmd.exe (PID: 5752) has been stopped.
+[2026-03-28 15:35:15] ALERT: New Process [OpenConsole.exe] (PID: 9464) started by WINDEV2407EVAL\User
+[2026-03-28 15:35:15] ALERT: New Process [WindowsTerminal.exe] (PID: 10500) started by WINDEV2407EVAL\User
+[2026-03-28 15:35:33] ALERT: New Process [WindowsTerminal.exe] (PID: 760) started by WINDEV2407EVAL\User
+[2026-03-28 15:35:33] !!! CRITICAL: Forbidden Process cmd.exe detected. Attempting to kill...
+[2026-03-28 15:35:33] SUCCESS: Process cmd.exe (PID: 6172) has been stopped.
+[2026-03-28 15:35:33] ALERT: New Process [OpenConsole.exe] (PID: 8936) started by WINDEV2407EVAL\User
+[2026-03-28 15:35:37] !!! CRITICAL: Forbidden Process CalculatorApp.exe detected. Attempting to kill...
+[2026-03-28 15:35:37] SUCCESS: Process CalculatorApp.exe (PID: 3572) has been stopped.
+[2026-03-28 15:38:26] SYSTEM: EDR Shutting down by User...
+[2026-03-28 15:39:34] SHIELD ACTIVE: Ghost EDR is now protecting the system.
+[2026-03-28 15:39:45] !!! KILL-EVENT: cmd.exe (PID: 2040) was terminated.
+[2026-03-28 15:39:52] !!! KILL-EVENT: cmd.exe (PID: 8368) was terminated.
+[2026-03-28 15:40:11] !!! KILL-EVENT: cmd.exe (PID: 1532) was terminated.
+[2026-03-28 15:41:38] SHIELD ACTIVE: Ghost EDR is now protecting the system.
+[2026-03-28 15:41:41] !!! KILL-EVENT: cmd.exe (PID: 1944) was terminated.
+[2026-03-28 15:41:58] !!! KILL-EVENT: cmd.exe (PID: 10824) was terminated.
+[2026-03-28 15:42:08] !!! KILL-EVENT: CalculatorApp.exe (PID: 8360) was terminated.
+[2026-03-28 15:42:13] !!! KILL-EVENT: cmd.exe (PID: 10232) was terminated.
+[2026-03-28 15:47:42] !!! KILL-EVENT: cmd.exe (PID: 3944) was terminated.
+[2026-03-28 15:49:12] SHIELD ACTIVE: Ghost EDR is now protecting the system.
+[2026-03-28 15:49:41] !!! KILL-EVENT: cmd.exe (PID: 9404) was terminated.
+[2026-03-28 15:50:21] !!! KILL-EVENT: cmd.exe (PID: 7080) was terminated.
+[2026-03-28 15:50:36] !!! KILL-EVENT: CalculatorApp.exe (PID: 8636) was terminated.
+[2026-03-28 15:50:38] !!! KILL-EVENT: CalculatorApp.exe (PID: 1972) was terminated.
+[2026-03-28 15:50:44] !!! KILL-EVENT: cmd.exe (PID: 6768) was terminated.
+[2026-03-28 15:51:24] !!! KILL-EVENT: cmd.exe (PID: 8204) was terminated.
+[2026-03-28 15:55:30] !!! KILL-EVENT: cmd.exe (PID: 4428) was terminated.
+[2026-03-28 16:07:53] SHIELD ACTIVE: Ghost EDR is now protecting the system.
+[2026-03-28 16:08:36] !!! KILL-EVENT: cmd.exe (PID: 7484) was terminated.
+[2026-03-28 16:08:43] !!! KILL-EVENT: CalculatorApp.exe (PID: 7476) was terminated.
+[2026-03-28 16:08:45] !!! KILL-EVENT: cmd.exe (PID: 7396) was terminated.
+[2026-03-28 16:08:55] !!! KILL-EVENT: cmd.exe (PID: 4452) was terminated.
+[2026-03-28 16:12:49] SHIELD ACTIVE: Ghost EDR with Network Telemetry online.
+[2026-03-28 16:14:40] NETWORK ALERT: [svchost.exe] opened connection to 20.190.190.196:443
+[2026-03-28 16:15:21] NETWORK ALERT: [svchost.exe] opened connection to 127.0.0.1:47001
+[2026-03-28 16:15:31] NETWORK ALERT: [msedge.exe] opened connection to 150.171.27.11:443
+[2026-03-28 16:15:31] NETWORK ALERT: [msedge.exe] opened connection to 150.171.27.11:443
+[2026-03-28 16:28:09] !!! KILL-EVENT: cmd.exe (PID: 10548) was terminated.
+[2026-03-28 16:28:16] !!! KILL-EVENT: cmd.exe (PID: 11364) was terminated.
+[2026-03-28 16:32:10] SHIELD ACTIVE: Ghost EDR with Network Telemetry & Kill-Switch online.
+[2026-03-28 16:32:46] SHIELD ACTIVE: Ghost EDR with Network Telemetry & Kill-Switch online.
+[2026-03-28 16:32:57] !!! KILL-EVENT: cmd.exe (PID: 8740) was terminated.
+[2026-03-28 16:35:55] !!! KILL-EVENT: cmd.exe (PID: 10160) was terminated.
+[2026-03-28 16:35:59] !!! KILL-EVENT: cmd.exe (PID: 9048) was terminated.
+[2026-03-28 16:37:33] KILL SWITCH DETECTED: Shutting down EDR safely.
+[2026-03-28 16:38:41] !!! KILL-EVENT: cmd.exe (PID: 2324) was terminated.
+[2026-03-28 16:38:52] !!! KILL-EVENT: CalculatorApp.exe (PID: 11296) was terminated.
+[2026-03-28 16:38:53] !!! KILL-EVENT: CalculatorApp.exe (PID: 7340) was terminated.
+[2026-03-28 16:38:55] !!! KILL-EVENT: CalculatorApp.exe (PID: 7088) was terminated.
+[2026-03-28 16:40:01] !!! KILL-EVENT: cmd.exe (PID: 11972) was terminated.
+[2026-03-28 16:41:42] !!! KILL-EVENT: CalculatorApp.exe (PID: 9080) was terminated.
+[2026-03-28 16:41:45] !!! KILL-EVENT: cmd.exe (PID: 9680) was terminated.
+[2026-03-28 16:49:22] SHIELD ACTIVE: Ghost EDR with Network Telemetry & Kill-Switch online.
+[2026-03-28 16:49:28] !!! KILL-EVENT: cmd.exe (PID: 2936) was terminated.
+[2026-03-28 16:50:44] KILL SWITCH DETECTED: Shutting down EDR safely.
+[2026-03-28 16:54:52] SHIELD ACTIVE: Ghost EDR with Network Telemetry & Kill-Switch online.
+[2026-03-28 16:55:27] NETWORK ALERT: [taskhostw.exe] opened connection to 52.167.249.196:443
+[2026-03-28 16:57:54] !!! KILL-EVENT: cmd.exe (PID: 9768) was terminated.
+[2026-03-28 16:57:54] SHIELD ACTIVE: Ghost EDR with Network Telemetry & Kill-Switch online.
+[2026-03-28 16:57:54] SHIELD ACTIVE: Ghost EDR with Network Telemetry & Kill-Switch online.
+[2026-03-28 16:57:59] !!! KILL-EVENT: cmd.exe (PID: 12044) was terminated.
+[2026-03-28 16:58:04] NETWORK ALERT: [WindowsPackageManagerServer.exe] opened connection to 23.61.214.101:443
+[2026-03-28 16:58:04] NETWORK ALERT: [WindowsPackageManagerServer.exe] opened connection to 23.61.214.101:443
+[2026-03-28 16:58:14] !!! KILL-EVENT: cmd.exe (PID: 11496) was terminated.
+[2026-03-28 16:58:19] !!! KILL-EVENT: cmd.exe (PID: 7996) was terminated.
+[2026-03-28 16:58:19] SHIELD ACTIVE: Ghost EDR with Network Telemetry & Kill-Switch online.
+[2026-03-28 16:58:29] !!! KILL-EVENT: cmd.exe (PID: 6428) was terminated.
+[2026-03-28 16:58:29] !!! KILL-EVENT: cmd.exe (PID: 6428) was terminated.
+[2026-03-28 16:58:35] !!! KILL-EVENT: cmd.exe (PID: 9840) was terminated.
+[2026-03-28 16:58:50] !!! KILL-EVENT: cmd.exe (PID: 7648) was terminated.
+[2026-03-28 16:58:55] !!! KILL-EVENT: cmd.exe (PID: 1288) was terminated.
+[2026-03-28 16:59:00] !!! KILL-EVENT: cmd.exe (PID: 9076) was terminated.
+[2026-03-28 16:59:00] !!! KILL-EVENT: cmd.exe (PID: 9076) was terminated.
+[2026-03-28 16:59:05] !!! KILL-EVENT: cmd.exe (PID: 444) was terminated.
+[2026-03-28 16:59:10] NETWORK ALERT: [MpDefenderCoreService.exe] opened connection to 52.123.129.14:443
+[2026-03-28 16:59:10] NETWORK ALERT: [MpDefenderCoreService.exe] opened connection to 23.11.33.159:80
+[2026-03-28 16:59:21] !!! KILL-EVENT: cmd.exe (PID: 9416) was terminated.
+[2026-03-28 16:59:26] !!! KILL-EVENT: cmd.exe (PID: 10784) was terminated.
+[2026-03-28 16:59:31] !!! KILL-EVENT: cmd.exe (PID: 2800) was terminated.
+[2026-03-28 16:59:57] !!! KILL-EVENT: cmd.exe (PID: 11172) was terminated.
+[2026-03-28 17:00:02] !!! KILL-EVENT: cmd.exe (PID: 11332) was terminated.
+[2026-03-28 17:00:02] !!! KILL-EVENT: cmd.exe (PID: 11332) was terminated.
+[2026-03-28 17:00:07] !!! KILL-EVENT: cmd.exe (PID: 5728) was terminated.
+[2026-03-28 17:00:27] !!! KILL-EVENT: cmd.exe (PID: 1384) was terminated.
+[2026-03-28 17:00:33] !!! KILL-EVENT: cmd.exe (PID: 8844) was terminated.
+[2026-03-28 17:00:33] !!! KILL-EVENT: cmd.exe (PID: 8844) was terminated.
+[2026-03-28 17:00:38] !!! KILL-EVENT: cmd.exe (PID: 10548) was terminated.
+[2026-03-28 17:00:38] SHIELD ACTIVE: Ghost EDR with Network Telemetry & Kill-Switch online.
+[2026-03-28 17:00:43] !!! KILL-EVENT: cmd.exe (PID: 12028) was terminated.
+[2026-03-28 17:00:43] SHIELD ACTIVE: Ghost EDR with Network Telemetry & Kill-Switch online.
+[2026-03-28 17:00:48] !!! KILL-EVENT: cmd.exe (PID: 6312) was terminated.
+[2026-03-28 17:00:53] !!! KILL-EVENT: cmd.exe (PID: 5532) was terminated.
+[2026-03-28 17:01:08] !!! KILL-EVENT: cmd.exe (PID: 11424) was terminated.
+[2026-03-28 17:01:13] !!! KILL-EVENT: cmd.exe (PID: 6812) was terminated.
+[2026-03-28 17:01:19] !!! KILL-EVENT: cmd.exe (PID: 11328) was terminated.
+[2026-03-28 17:01:24] !!! KILL-EVENT: cmd.exe (PID: 1964) was terminated.
+[2026-03-28 17:01:29] !!! KILL-EVENT: cmd.exe (PID: 11336) was terminated.
+[2026-03-28 17:01:44] !!! KILL-EVENT: cmd.exe (PID: 8144) was terminated.
+[2026-03-28 17:01:44] !!! KILL-EVENT: cmd.exe (PID: 8144) was terminated.
+[2026-03-28 17:01:49] !!! KILL-EVENT: cmd.exe (PID: 11688) was terminated.
+[2026-03-28 17:01:49] !!! KILL-EVENT: cmd.exe (PID: 11688) was terminated.
+[2026-03-28 17:01:59] !!! KILL-EVENT: cmd.exe (PID: 11756) was terminated.
+[2026-03-28 17:02:05] !!! KILL-EVENT: cmd.exe (PID: 7876) was terminated.
+[2026-03-28 17:02:05] SHIELD ACTIVE: Ghost EDR with Network Telemetry & Kill-Switch online.
+[2026-03-28 17:02:10] !!! KILL-EVENT: cmd.exe (PID: 4160) was terminated.
+[2026-03-28 17:02:15] !!! KILL-EVENT: cmd.exe (PID: 7132) was terminated.
+[2026-03-28 17:02:20] !!! KILL-EVENT: cmd.exe (PID: 6040) was terminated.
+[2026-03-28 17:02:25] !!! KILL-EVENT: cmd.exe (PID: 7552) was terminated.
+[2026-03-28 17:02:25] !!! KILL-EVENT: cmd.exe (PID: 7552) was terminated.
+[2026-03-28 17:02:30] !!! KILL-EVENT: cmd.exe (PID: 11332) was terminated.
+[2026-03-28 17:02:35] !!! KILL-EVENT: cmd.exe (PID: 5416) was terminated.
+[2026-03-28 17:02:40] !!! KILL-EVENT: cmd.exe (PID: 4436) was terminated.
+[2026-03-28 17:02:40] SHIELD ACTIVE: Ghost EDR with Network Telemetry & Kill-Switch online.
+[2026-03-28 17:02:45] !!! KILL-EVENT: cmd.exe (PID: 7860) was terminated.
+[2026-03-28 17:02:51] !!! KILL-EVENT: cmd.exe (PID: 8356) was terminated.
+[2026-03-28 17:02:56] !!! KILL-EVENT: cmd.exe (PID: 11712) was terminated.
+[2026-03-28 17:02:56] !!! KILL-EVENT: cmd.exe (PID: 11712) was terminated.
+[2026-03-28 17:03:01] !!! KILL-EVENT: cmd.exe (PID: 11296) was terminated.
+[2026-03-28 17:03:06] !!! KILL-EVENT: cmd.exe (PID: 11388) was terminated.
+[2026-03-28 17:03:10] NETWORK ALERT: [msedgewebview2.exe] opened connection to 23.210.216.95:443
+[2026-03-28 17:03:10] NETWORK ALERT: [msedgewebview2.exe] opened connection to 23.210.216.95:443
+[2026-03-28 17:03:10] NETWORK ALERT: [msedgewebview2.exe] opened connection to 23.210.216.95:443
+[2026-03-28 17:03:10] NETWORK ALERT: [msedgewebview2.exe] opened connection to 23.210.216.95:443
+[2026-03-28 17:03:10] NETWORK ALERT: [msedgewebview2.exe] opened connection to 23.210.216.95:443
+[2026-03-28 17:03:10] NETWORK ALERT: [msedgewebview2.exe] opened connection to 23.210.216.95:443
+[2026-03-28 17:03:10] NETWORK ALERT: [msedgewebview2.exe] opened connection to 23.210.216.95:443
+[2026-03-28 17:03:10] NETWORK ALERT: [msedgewebview2.exe] opened connection to 23.210.216.95:443
+[2026-03-28 17:03:10] NETWORK ALERT: [msedgewebview2.exe] opened connection to 23.210.216.95:443
+[2026-03-28 17:03:10] NETWORK ALERT: [msedgewebview2.exe] opened connection to 23.210.216.95:443
+[2026-03-28 17:03:10] NETWORK ALERT: [msedgewebview2.exe] opened connection to 23.210.216.95:443
+[2026-03-28 17:03:11] !!! KILL-EVENT: cmd.exe (PID: 11936) was terminated.
+[2026-03-28 17:03:16] !!! KILL-EVENT: cmd.exe (PID: 7336) was terminated.
+[2026-03-28 17:03:21] !!! KILL-EVENT: cmd.exe (PID: 10904) was terminated.
+[2026-03-28 17:03:21] !!! KILL-EVENT: cmd.exe (PID: 10904) was terminated.
+[2026-03-28 17:03:26] !!! KILL-EVENT: cmd.exe (PID: 11808) was terminated.
+[2026-03-28 17:03:32] !!! KILL-EVENT: cmd.exe (PID: 8836) was terminated.
+[2026-03-28 17:03:37] !!! KILL-EVENT: cmd.exe (PID: 11324) was terminated.
+[2026-03-28 17:03:42] !!! KILL-EVENT: cmd.exe (PID: 8784) was terminated.
+[2026-03-28 17:03:47] !!! KILL-EVENT: cmd.exe (PID: 5324) was terminated.
+[2026-03-28 17:03:52] !!! KILL-EVENT: cmd.exe (PID: 2512) was terminated.
+[2026-03-28 17:03:57] !!! KILL-EVENT: cmd.exe (PID: 8356) was terminated.
+[2026-03-28 17:03:57] !!! KILL-EVENT: cmd.exe (PID: 8356) was terminated.
+[2026-03-28 17:04:02] !!! KILL-EVENT: cmd.exe (PID: 7328) was terminated.
+[2026-03-28 17:04:02] !!! KILL-EVENT: cmd.exe (PID: 7328) was terminated.
+[2026-03-28 17:04:02] !!! KILL-EVENT: cmd.exe (PID: 7328) was terminated.
+[2026-03-28 17:04:07] !!! KILL-EVENT: cmd.exe (PID: 9420) was terminated.
+[2026-03-28 17:04:07] !!! KILL-EVENT: cmd.exe (PID: 9420) was terminated.
+[2026-03-28 17:04:13] !!! KILL-EVENT: cmd.exe (PID: 4988) was terminated.
+[2026-03-28 17:04:18] !!! KILL-EVENT: cmd.exe (PID: 8352) was terminated.
+[2026-03-28 17:04:23] !!! KILL-EVENT: cmd.exe (PID: 1772) was terminated.
+[2026-03-28 17:04:28] !!! KILL-EVENT: cmd.exe (PID: 10572) was terminated.
+[2026-03-28 17:04:33] !!! KILL-EVENT: cmd.exe (PID: 3456) was terminated.
+[2026-03-28 17:04:38] !!! KILL-EVENT: cmd.exe (PID: 7424) was terminated.
+[2026-03-28 17:04:38] !!! KILL-EVENT: cmd.exe (PID: 7424) was terminated.
+[2026-03-28 17:04:38] !!! KILL-EVENT: cmd.exe (PID: 7424) was terminated.
+[2026-03-28 17:04:43] !!! KILL-EVENT: cmd.exe (PID: 240) was terminated.
+[2026-03-28 17:04:48] !!! KILL-EVENT: cmd.exe (PID: 11564) was terminated.
+[2026-03-28 17:04:59] !!! KILL-EVENT: cmd.exe (PID: 6380) was terminated.
+[2026-03-28 17:04:59] !!! KILL-EVENT: cmd.exe (PID: 6380) was terminated.
+[2026-03-28 17:05:04] !!! KILL-EVENT: cmd.exe (PID: 4160) was terminated.
+[2026-03-28 17:05:09] !!! KILL-EVENT: cmd.exe (PID: 1324) was terminated.
+[2026-03-28 17:05:09] SHIELD ACTIVE: Ghost EDR with Network Telemetry & Kill-Switch online.
+[2026-03-28 17:05:14] !!! KILL-EVENT: cmd.exe (PID: 10168) was terminated.
+[2026-03-28 17:05:19] !!! KILL-EVENT: cmd.exe (PID: 11836) was terminated.
+[2026-03-28 17:05:24] !!! KILL-EVENT: cmd.exe (PID: 3248) was terminated.
+[2026-03-28 17:05:24] !!! KILL-EVENT: cmd.exe (PID: 3248) was terminated.
+[2026-03-28 17:05:24] !!! KILL-EVENT: cmd.exe (PID: 3248) was terminated.
+[2026-03-28 17:05:29] !!! KILL-EVENT: cmd.exe (PID: 8248) was terminated.
+[2026-03-28 17:05:34] !!! KILL-EVENT: cmd.exe (PID: 6340) was terminated.
+[2026-03-28 17:05:40] !!! KILL-EVENT: cmd.exe (PID: 7928) was terminated.
+[2026-03-28 17:05:45] !!! KILL-EVENT: cmd.exe (PID: 4560) was terminated.
+[2026-03-28 17:05:50] !!! KILL-EVENT: cmd.exe (PID: 11336) was terminated.
+[2026-03-28 17:05:50] !!! KILL-EVENT: cmd.exe (PID: 11336) was terminated.
+[2026-03-28 17:05:50] SHIELD ACTIVE: Ghost EDR with Network Telemetry & Kill-Switch online.
+[2026-03-28 17:05:55] !!! KILL-EVENT: cmd.exe (PID: 5612) was terminated.
+[2026-03-28 17:06:00] !!! KILL-EVENT: cmd.exe (PID: 5464) was terminated.
+[2026-03-28 17:06:05] !!! KILL-EVENT: cmd.exe (PID: 11764) was terminated.
+[2026-03-28 17:06:05] !!! KILL-EVENT: cmd.exe (PID: 11764) was terminated.
+[2026-03-28 17:06:05] !!! KILL-EVENT: cmd.exe (PID: 11764) was terminated.
+[2026-03-28 17:06:10] !!! KILL-EVENT: cmd.exe (PID: 4284) was terminated.
+[2026-03-28 17:06:15] !!! KILL-EVENT: cmd.exe (PID: 9304) was terminated.
+[2026-03-28 17:06:19] SHIELD ACTIVE: Ghost EDR with Network Telemetry & Kill-Switch online.
+[2026-03-28 17:06:19] !!! KILL-EVENT: cmd.exe (PID: 11164) was terminated.
+[2026-03-28 17:06:19] !!! KILL-EVENT: cmd.exe (PID: 11164) was terminated.
+[2026-03-28 17:06:20] !!! KILL-EVENT: cmd.exe (PID: 8576) was terminated.
+[2026-03-28 17:06:20] !!! KILL-EVENT: cmd.exe (PID: 8576) was terminated.
+[2026-03-28 17:06:22] SHIELD ACTIVE: Ghost EDR with Network Telemetry & Kill-Switch online.
+[2026-03-28 17:06:22] !!! KILL-EVENT: cmd.exe (PID: 8744) was terminated.
+[2026-03-28 17:06:24] !!! KILL-EVENT: cmd.exe (PID: 12140) was terminated.
+[2026-03-28 17:06:24] SHIELD ACTIVE: Ghost EDR with Network Telemetry & Kill-Switch online.
+[2026-03-28 17:06:25] !!! KILL-EVENT: cmd.exe (PID: 2724) was terminated.
+[2026-03-28 17:06:26] SHIELD ACTIVE: Ghost EDR with Network Telemetry & Kill-Switch online.
+[2026-03-28 17:06:26] !!! KILL-EVENT: cmd.exe (PID: 7640) was terminated.
+[2026-03-28 17:06:27] !!! KILL-EVENT: cmd.exe (PID: 10312) was terminated.
+[2026-03-28 17:06:27] !!! KILL-EVENT: cmd.exe (PID: 10312) was terminated.
+[2026-03-28 17:06:29] !!! KILL-EVENT: cmd.exe (PID: 1748) was terminated.
+[2026-03-28 17:06:31] !!! KILL-EVENT: cmd.exe (PID: 7876) was terminated.
+[2026-03-28 17:06:31] !!! KILL-EVENT: cmd.exe (PID: 7876) was terminated.
+[2026-03-28 17:06:31] SHIELD ACTIVE: Ghost EDR with Network Telemetry & Kill-Switch online.
+[2026-03-28 17:06:33] !!! KILL-EVENT: cmd.exe (PID: 3312) was terminated.
+[2026-03-28 17:06:33] !!! KILL-EVENT: cmd.exe (PID: 3312) was terminated.
+[2026-03-28 17:06:34] !!! KILL-EVENT: cmd.exe (PID: 1912) was terminated.
+[2026-03-28 17:06:34] !!! KILL-EVENT: cmd.exe (PID: 1912) was terminated.
+[2026-03-28 17:06:36] !!! KILL-EVENT: cmd.exe (PID: 3092) was terminated.
+[2026-03-28 17:06:36] !!! KILL-EVENT: cmd.exe (PID: 3092) was terminated.
+[2026-03-28 17:06:37] !!! KILL-EVENT: cmd.exe (PID: 2408) was terminated.
+[2026-03-28 17:06:38] !!! KILL-EVENT: cmd.exe (PID: 11192) was terminated.
+[2026-03-28 17:06:39] !!! KILL-EVENT: cmd.exe (PID: 2780) was terminated.
+[2026-03-28 17:06:41] !!! KILL-EVENT: cmd.exe (PID: 6472) was terminated.
+[2026-03-28 17:06:41] !!! KILL-EVENT: cmd.exe (PID: 6472) was terminated.
+[2026-03-28 17:06:42] !!! KILL-EVENT: cmd.exe (PID: 3316) was terminated.
+[2026-03-28 17:06:43] !!! KILL-EVENT: cmd.exe (PID: 10120) was terminated.
+[2026-03-28 17:06:43] !!! KILL-EVENT: cmd.exe (PID: 10120) was terminated.
+[2026-03-28 17:06:43] !!! KILL-EVENT: cmd.exe (PID: 10120) was terminated.
+[2026-03-28 17:06:43] SHIELD ACTIVE: Ghost EDR with Network Telemetry & Kill-Switch online.
+[2026-03-28 17:06:44] !!! KILL-EVENT: cmd.exe (PID: 5692) was terminated.
+[2026-03-28 17:06:46] !!! KILL-EVENT: cmd.exe (PID: 8628) was terminated.
+[2026-03-28 17:06:46] !!! KILL-EVENT: cmd.exe (PID: 8628) was terminated.
+[2026-03-28 17:06:47] !!! KILL-EVENT: cmd.exe (PID: 8532) was terminated.
+[2026-03-28 17:06:47] !!! KILL-EVENT: cmd.exe (PID: 8532) was terminated.
+[2026-03-28 17:06:48] !!! KILL-EVENT: cmd.exe (PID: 3748) was terminated.
+[2026-03-28 17:06:48] !!! KILL-EVENT: cmd.exe (PID: 3748) was terminated.
+[2026-03-28 17:06:49] !!! KILL-EVENT: cmd.exe (PID: 8376) was terminated.
+[2026-03-28 17:06:49] !!! KILL-EVENT: cmd.exe (PID: 8376) was terminated.
+[2026-03-28 17:06:51] !!! KILL-EVENT: cmd.exe (PID: 11140) was terminated.
+[2026-03-28 17:06:52] !!! KILL-EVENT: cmd.exe (PID: 7968) was terminated.
+[2026-03-28 17:06:53] !!! KILL-EVENT: cmd.exe (PID: 11580) was terminated.
+[2026-03-28 17:06:53] !!! KILL-EVENT: cmd.exe (PID: 11580) was terminated.
+[2026-03-28 17:06:55] !!! KILL-EVENT: cmd.exe (PID: 2080) was terminated.
+[2026-03-28 17:06:55] SHIELD ACTIVE: Ghost EDR with Network Telemetry & Kill-Switch online.
+[2026-03-28 17:06:56] !!! KILL-EVENT: cmd.exe (PID: 6772) was terminated.
+[2026-03-28 17:06:56] !!! KILL-EVENT: cmd.exe (PID: 6772) was terminated.
+[2026-03-28 17:06:57] !!! KILL-EVENT: cmd.exe (PID: 6868) was terminated.
+[2026-03-28 17:07:00] !!! KILL-EVENT: cmd.exe (PID: 6716) was terminated.
+[2026-03-28 17:07:01] !!! KILL-EVENT: cmd.exe (PID: 8888) was terminated.
+[2026-03-28 17:07:01] !!! KILL-EVENT: cmd.exe (PID: 8888) was terminated.
+[2026-03-28 17:07:02] !!! KILL-EVENT: cmd.exe (PID: 3828) was terminated.
+[2026-03-28 17:07:02] SHIELD ACTIVE: Ghost EDR with Network Telemetry & Kill-Switch online.
+[2026-03-28 17:07:03] !!! KILL-EVENT: cmd.exe (PID: 704) was terminated.
+[2026-03-28 17:07:03] !!! KILL-EVENT: cmd.exe (PID: 704) was terminated.
+[2026-03-28 17:07:05] !!! KILL-EVENT: cmd.exe (PID: 7576) was terminated.
+[2026-03-28 17:07:07] !!! KILL-EVENT: cmd.exe (PID: 3852) was terminated.
+[2026-03-28 17:07:07] !!! KILL-EVENT: cmd.exe (PID: 3852) was terminated.
+[2026-03-28 17:07:07] !!! KILL-EVENT: cmd.exe (PID: 3852) was terminated.
+[2026-03-28 17:07:07] !!! KILL-EVENT: cmd.exe (PID: 11144) was terminated.
+[2026-03-28 17:07:08] !!! KILL-EVENT: cmd.exe (PID: 7232) was terminated.
+[2026-03-28 17:07:08] SHIELD ACTIVE: Ghost EDR with Network Telemetry & Kill-Switch online.
+[2026-03-28 17:07:10] !!! KILL-EVENT: cmd.exe (PID: 9924) was terminated.
+[2026-03-28 17:07:10] !!! KILL-EVENT: cmd.exe (PID: 9924) was terminated.
+[2026-03-28 17:07:12] !!! KILL-EVENT: cmd.exe (PID: 3320) was terminated.
+[2026-03-28 17:07:12] !!! KILL-EVENT: cmd.exe (PID: 3320) was terminated.
+[2026-03-28 17:07:12] !!! KILL-EVENT: cmd.exe (PID: 7504) was terminated.
+[2026-03-28 17:07:13] !!! KILL-EVENT: cmd.exe (PID: 7876) was terminated.
+[2026-03-28 17:07:15] !!! KILL-EVENT: cmd.exe (PID: 7668) was terminated.
+[2026-03-28 17:07:15] !!! KILL-EVENT: cmd.exe (PID: 7668) was terminated.
+[2026-03-28 17:07:15] !!! KILL-EVENT: cmd.exe (PID: 7668) was terminated.
+[2026-03-28 17:07:17] !!! KILL-EVENT: cmd.exe (PID: 11648) was terminated.
+[2026-03-28 17:07:17] !!! KILL-EVENT: cmd.exe (PID: 11648) was terminated.
+[2026-03-28 17:07:17] SHIELD ACTIVE: Ghost EDR with Network Telemetry & Kill-Switch online.
+[2026-03-28 17:07:17] !!! KILL-EVENT: cmd.exe (PID: 9468) was terminated.
+[2026-03-28 17:07:17] !!! KILL-EVENT: cmd.exe (PID: 9468) was terminated.
+[2026-03-28 17:07:18] !!! KILL-EVENT: cmd.exe (PID: 5552) was terminated.
+[2026-03-28 17:07:18] !!! KILL-EVENT: cmd.exe (PID: 5552) was terminated.
+[2026-03-28 17:07:18] !!! KILL-EVENT: cmd.exe (PID: 5552) was terminated.
+[2026-03-28 17:07:20] !!! KILL-EVENT: cmd.exe (PID: 7724) was terminated.
+[2026-03-28 17:07:22] !!! KILL-EVENT: cmd.exe (PID: 1124) was terminated.
+[2026-03-28 17:07:23] !!! KILL-EVENT: cmd.exe (PID: 12120) was terminated.
+[2026-03-28 17:07:23] !!! KILL-EVENT: cmd.exe (PID: 12120) was terminated.
+[2026-03-28 17:07:24] !!! KILL-EVENT: cmd.exe (PID: 11992) was terminated.
+[2026-03-28 17:07:25] !!! KILL-EVENT: cmd.exe (PID: 1244) was terminated.
+[2026-03-28 17:07:27] !!! KILL-EVENT: cmd.exe (PID: 6048) was terminated.
+[2026-03-28 17:07:28] !!! KILL-EVENT: cmd.exe (PID: 10272) was terminated.
+[2026-03-28 17:07:28] !!! KILL-EVENT: cmd.exe (PID: 10272) was terminated.
+[2026-03-28 17:07:29] !!! KILL-EVENT: cmd.exe (PID: 6292) was terminated.
+[2026-03-28 17:07:29] !!! KILL-EVENT: cmd.exe (PID: 6292) was terminated.
+[2026-03-28 17:07:29] !!! KILL-EVENT: cmd.exe (PID: 6292) was terminated.
+[2026-03-28 17:07:30] !!! KILL-EVENT: cmd.exe (PID: 136) was terminated.
+[2026-03-28 17:07:32] !!! KILL-EVENT: cmd.exe (PID: 5796) was terminated.
+[2026-03-28 17:07:32] !!! KILL-EVENT: cmd.exe (PID: 5796) was terminated.
+[2026-03-28 17:07:32] !!! KILL-EVENT: cmd.exe (PID: 5796) was terminated.
+[2026-03-28 17:07:33] !!! KILL-EVENT: cmd.exe (PID: 11916) was terminated.
+[2026-03-28 17:07:33] SHIELD ACTIVE: Ghost EDR with Network Telemetry & Kill-Switch online.
+[2026-03-28 17:07:34] !!! KILL-EVENT: cmd.exe (PID: 6852) was terminated.
+[2026-03-28 17:07:34] !!! KILL-EVENT: cmd.exe (PID: 6852) was terminated.
+[2026-03-28 17:07:34] !!! KILL-EVENT: cmd.exe (PID: 6852) was terminated.
+[2026-03-28 17:07:35] !!! KILL-EVENT: cmd.exe (PID: 3472) was terminated.
+[2026-03-28 17:07:37] !!! KILL-EVENT: cmd.exe (PID: 11640) was terminated.
+[2026-03-28 17:07:37] !!! KILL-EVENT: cmd.exe (PID: 11640) was terminated.
+[2026-03-28 17:07:37] !!! KILL-EVENT: cmd.exe (PID: 11640) was terminated.
+[2026-03-28 17:07:38] !!! KILL-EVENT: cmd.exe (PID: 10256) was terminated.
+[2026-03-28 17:07:39] !!! KILL-EVENT: cmd.exe (PID: 4544) was terminated.
+[2026-03-28 17:07:41] !!! KILL-EVENT: cmd.exe (PID: 11852) was terminated.
+[2026-03-28 17:07:42] !!! KILL-EVENT: cmd.exe (PID: 7432) was terminated.
+[2026-03-28 17:07:43] !!! KILL-EVENT: cmd.exe (PID: 7896) was terminated.
+[2026-03-28 17:07:43] !!! KILL-EVENT: cmd.exe (PID: 7896) was terminated.
+[2026-03-28 17:07:44] !!! KILL-EVENT: cmd.exe (PID: 12116) was terminated.
+[2026-03-28 17:07:44] SHIELD ACTIVE: Ghost EDR with Network Telemetry & Kill-Switch online.
+[2026-03-28 17:07:46] !!! KILL-EVENT: cmd.exe (PID: 7576) was terminated.
+[2026-03-28 17:07:46] !!! KILL-EVENT: cmd.exe (PID: 7576) was terminated.
+[2026-03-28 17:07:47] !!! KILL-EVENT: cmd.exe (PID: 11780) was terminated.
+[2026-03-28 17:07:47] !!! KILL-EVENT: cmd.exe (PID: 11780) was terminated.
+[2026-03-28 17:07:47] !!! KILL-EVENT: cmd.exe (PID: 11780) was terminated.
+[2026-03-28 17:07:48] !!! KILL-EVENT: cmd.exe (PID: 5736) was terminated.
+[2026-03-28 17:07:49] !!! KILL-EVENT: cmd.exe (PID: 7784) was terminated.
+[2026-03-28 17:07:51] !!! KILL-EVENT: cmd.exe (PID: 6636) was terminated.
+[2026-03-28 17:07:51] !!! KILL-EVENT: cmd.exe (PID: 6636) was terminated.
+[2026-03-28 17:07:53] !!! KILL-EVENT: cmd.exe (PID: 11348) was terminated.
+[2026-03-28 17:07:53] !!! KILL-EVENT: cmd.exe (PID: 6912) was terminated.
+[2026-03-28 17:07:54] !!! KILL-EVENT: cmd.exe (PID: 4612) was terminated.
+[2026-03-28 17:07:54] !!! KILL-EVENT: cmd.exe (PID: 4612) was terminated.
+[2026-03-28 17:07:54] !!! KILL-EVENT: cmd.exe (PID: 4612) was terminated.
+[2026-03-28 17:07:56] !!! KILL-EVENT: cmd.exe (PID: 10736) was terminated.
+[2026-03-28 17:07:56] !!! KILL-EVENT: cmd.exe (PID: 10736) was terminated.
+[2026-03-28 17:07:58] !!! KILL-EVENT: cmd.exe (PID: 10440) was terminated.
+[2026-03-28 17:07:58] !!! KILL-EVENT: cmd.exe (PID: 11216) was terminated.
+[2026-03-28 17:07:58] !!! KILL-EVENT: cmd.exe (PID: 11216) was terminated.
+[2026-03-28 17:07:58] !!! KILL-EVENT: cmd.exe (PID: 11216) was terminated.
+[2026-03-28 17:07:58] !!! KILL-EVENT: cmd.exe (PID: 11216) was terminated.
+[2026-03-28 17:07:59] !!! KILL-EVENT: cmd.exe (PID: 3092) was terminated.
+[2026-03-28 17:08:01] !!! KILL-EVENT: cmd.exe (PID: 11708) was terminated.
+[2026-03-28 17:08:01] !!! KILL-EVENT: cmd.exe (PID: 2152) was terminated.
+[2026-03-28 17:08:01] !!! KILL-EVENT: cmd.exe (PID: 2152) was terminated.
+[2026-03-28 17:08:01] !!! KILL-EVENT: cmd.exe (PID: 2152) was terminated.
+[2026-03-28 17:08:01] SHIELD ACTIVE: Ghost EDR with Network Telemetry & Kill-Switch online.
+[2026-03-28 17:08:03] !!! KILL-EVENT: cmd.exe (PID: 11992) was terminated.
+[2026-03-28 17:08:03] !!! KILL-EVENT: cmd.exe (PID: 11992) was terminated.
+[2026-03-28 17:08:03] !!! KILL-EVENT: cmd.exe (PID: 7552) was terminated.
+[2026-03-28 17:08:03] !!! KILL-EVENT: cmd.exe (PID: 7552) was terminated.
+[2026-03-28 17:08:04] !!! KILL-EVENT: cmd.exe (PID: 7480) was terminated.
+[2026-03-28 17:08:04] !!! KILL-EVENT: cmd.exe (PID: 7480) was terminated.
+[2026-03-28 17:08:04] !!! KILL-EVENT: cmd.exe (PID: 7480) was terminated.
+[2026-03-28 17:08:05] SHIELD ACTIVE: Ghost EDR with Network Telemetry & Kill-Switch online.
+[2026-03-28 17:08:06] !!! KILL-EVENT: cmd.exe (PID: 5920) was terminated.
+[2026-03-28 17:08:06] !!! KILL-EVENT: cmd.exe (PID: 5920) was terminated.
+[2026-03-28 17:08:06] !!! KILL-EVENT: cmd.exe (PID: 5920) was terminated.
+[2026-03-28 17:08:08] !!! KILL-EVENT: cmd.exe (PID: 11292) was terminated.
+[2026-03-28 17:08:08] !!! KILL-EVENT: cmd.exe (PID: 11292) was terminated.
+[2026-03-28 17:08:08] !!! KILL-EVENT: cmd.exe (PID: 11292) was terminated.
+[2026-03-28 17:08:09] !!! KILL-EVENT: cmd.exe (PID: 7648) was terminated.
+[2026-03-28 17:08:09] !!! KILL-EVENT: cmd.exe (PID: 9428) was terminated.
+[2026-03-28 17:08:09] !!! KILL-EVENT: cmd.exe (PID: 9428) was terminated.
+[2026-03-28 17:08:11] !!! KILL-EVENT: cmd.exe (PID: 9612) was terminated.
+[2026-03-28 17:08:13] !!! KILL-EVENT: cmd.exe (PID: 2528) was terminated.
+[2026-03-28 17:08:14] !!! KILL-EVENT: cmd.exe (PID: 3676) was terminated.
+[2026-03-28 17:08:15] !!! KILL-EVENT: cmd.exe (PID: 11328) was terminated.
+[2026-03-28 17:08:16] !!! KILL-EVENT: cmd.exe (PID: 9872) was terminated.
+[2026-03-28 17:08:18] !!! KILL-EVENT: cmd.exe (PID: 1952) was terminated.
+[2026-03-28 17:08:19] !!! KILL-EVENT: cmd.exe (PID: 4056) was terminated.
+[2026-03-28 17:08:19] !!! KILL-EVENT: cmd.exe (PID: 4056) was terminated.
+[2026-03-28 17:08:19] !!! KILL-EVENT: cmd.exe (PID: 4056) was terminated.
+[2026-03-28 17:08:19] !!! KILL-EVENT: cmd.exe (PID: 4056) was terminated.
+[2026-03-28 17:08:19] !!! KILL-EVENT: cmd.exe (PID: 4056) was terminated.
+[2026-03-28 17:08:19] !!! KILL-EVENT: cmd.exe (PID: 4056) was terminated.
+[2026-03-28 17:08:20] !!! KILL-EVENT: cmd.exe (PID: 11152) was terminated.
+[2026-03-28 17:08:20] SHIELD ACTIVE: Ghost EDR with Network Telemetry & Kill-Switch online.
+[2026-03-28 17:08:22] !!! KILL-EVENT: cmd.exe (PID: 7576) was terminated.
+[2026-03-28 17:08:22] !!! KILL-EVENT: cmd.exe (PID: 7576) was terminated.
+[2026-03-28 17:08:22] !!! KILL-EVENT: cmd.exe (PID: 7576) was terminated.
+[2026-03-28 17:08:23] !!! KILL-EVENT: cmd.exe (PID: 1100) was terminated.
+[2026-03-28 17:08:23] !!! KILL-EVENT: cmd.exe (PID: 1100) was terminated.
+[2026-03-28 17:08:23] !!! KILL-EVENT: cmd.exe (PID: 1100) was terminated.
+[2026-03-28 17:08:24] !!! KILL-EVENT: cmd.exe (PID: 11272) was terminated.
+[2026-03-28 17:08:25] !!! KILL-EVENT: cmd.exe (PID: 8508) was terminated.
+[2026-03-28 17:08:27] !!! KILL-EVENT: cmd.exe (PID: 10280) was terminated.
+[2026-03-28 17:08:27] !!! KILL-EVENT: cmd.exe (PID: 10280) was terminated.
+[2026-03-28 17:08:27] !!! KILL-EVENT: cmd.exe (PID: 10280) was terminated.
+[2026-03-28 17:08:27] !!! KILL-EVENT: cmd.exe (PID: 10280) was terminated.
+[2026-03-28 17:08:29] !!! KILL-EVENT: cmd.exe (PID: 4780) was terminated.
+[2026-03-28 17:08:29] !!! KILL-EVENT: cmd.exe (PID: 4780) was terminated.
+[2026-03-28 17:08:29] !!! KILL-EVENT: cmd.exe (PID: 7924) was terminated.
+[2026-03-28 17:08:30] !!! KILL-EVENT: cmd.exe (PID: 10572) was terminated.
+[2026-03-28 17:08:30] !!! KILL-EVENT: cmd.exe (PID: 10572) was terminated.
+[2026-03-28 17:08:30] !!! KILL-EVENT: cmd.exe (PID: 10572) was terminated.
+[2026-03-28 17:08:30] !!! KILL-EVENT: cmd.exe (PID: 10572) was terminated.
+[2026-03-28 17:08:30] !!! KILL-EVENT: cmd.exe (PID: 10572) was terminated.
+[2026-03-28 17:08:30] !!! KILL-EVENT: cmd.exe (PID: 10572) was terminated.
+[2026-03-28 17:08:32] !!! KILL-EVENT: cmd.exe (PID: 4124) was terminated.
+[2026-03-28 17:08:32] !!! KILL-EVENT: cmd.exe (PID: 4124) was terminated.
+[2026-03-28 17:08:32] !!! KILL-EVENT: cmd.exe (PID: 4124) was terminated.
+[2026-03-28 17:08:32] SHIELD ACTIVE: Ghost EDR with Network Telemetry & Kill-Switch online.
+[2026-03-28 17:08:34] !!! KILL-EVENT: cmd.exe (PID: 10988) was terminated.
+[2026-03-28 17:08:34] !!! KILL-EVENT: cmd.exe (PID: 10988) was terminated.
+[2026-03-28 17:08:34] !!! KILL-EVENT: cmd.exe (PID: 10988) was terminated.
+[2026-03-28 17:08:34] !!! KILL-EVENT: cmd.exe (PID: 10988) was terminated.
+[2026-03-28 17:08:34] !!! KILL-EVENT: cmd.exe (PID: 10988) was terminated.
+[2026-03-28 17:08:34] !!! KILL-EVENT: cmd.exe (PID: 5328) was terminated.
+[2026-03-28 17:08:34] !!! KILL-EVENT: cmd.exe (PID: 5328) was terminated.
+[2026-03-28 17:08:34] !!! KILL-EVENT: cmd.exe (PID: 5328) was terminated.
+[2026-03-28 17:08:35] !!! KILL-EVENT: cmd.exe (PID: 964) was terminated.
+[2026-03-28 17:08:37] !!! KILL-EVENT: cmd.exe (PID: 1972) was terminated.
+[2026-03-28 17:08:37] !!! KILL-EVENT: cmd.exe (PID: 1972) was terminated.
+[2026-03-28 17:08:37] !!! KILL-EVENT: cmd.exe (PID: 1972) was terminated.
+[2026-03-28 17:08:39] !!! KILL-EVENT: cmd.exe (PID: 10440) was terminated.
+[2026-03-28 17:08:39] !!! KILL-EVENT: cmd.exe (PID: 10440) was terminated.
+[2026-03-28 17:08:39] !!! KILL-EVENT: cmd.exe (PID: 10440) was terminated.
+[2026-03-28 17:08:39] !!! KILL-EVENT: cmd.exe (PID: 10440) was terminated.
+[2026-03-28 17:08:39] !!! KILL-EVENT: cmd.exe (PID: 11216) was terminated.
+[2026-03-28 17:08:39] SHIELD ACTIVE: Ghost EDR with Network Telemetry & Kill-Switch online.
+[2026-03-28 17:08:40] !!! KILL-EVENT: cmd.exe (PID: 11900) was terminated.
+[2026-03-28 17:08:42] !!! KILL-EVENT: cmd.exe (PID: 6552) was terminated.
+[2026-03-28 17:08:44] !!! KILL-EVENT: cmd.exe (PID: 476) was terminated.
+[2026-03-28 17:08:44] !!! KILL-EVENT: cmd.exe (PID: 476) was terminated.
+[2026-03-28 17:08:44] !!! KILL-EVENT: cmd.exe (PID: 1244) was terminated.
+[2026-03-28 17:08:44] !!! KILL-EVENT: cmd.exe (PID: 1244) was terminated.
+[2026-03-28 17:08:44] !!! KILL-EVENT: cmd.exe (PID: 1244) was terminated.
+[2026-03-28 17:08:44] !!! KILL-EVENT: cmd.exe (PID: 1244) was terminated.
+[2026-03-28 17:08:45] !!! KILL-EVENT: cmd.exe (PID: 4460) was terminated.
+[2026-03-28 17:08:47] !!! KILL-EVENT: cmd.exe (PID: 7572) was terminated.
+[2026-03-28 17:08:47] !!! KILL-EVENT: cmd.exe (PID: 7572) was terminated.
+[2026-03-28 17:08:47] !!! KILL-EVENT: cmd.exe (PID: 7572) was terminated.
+[2026-03-28 17:08:47] !!! KILL-EVENT: cmd.exe (PID: 7572) was terminated.
+[2026-03-28 17:08:47] !!! KILL-EVENT: cmd.exe (PID: 7572) was terminated.
+[2026-03-28 17:08:47] !!! KILL-EVENT: cmd.exe (PID: 7572) was terminated.
+[2026-03-28 17:08:47] !!! KILL-EVENT: cmd.exe (PID: 7572) was terminated.
+[2026-03-28 17:08:49] !!! KILL-EVENT: cmd.exe (PID: 11384) was terminated.
+[2026-03-28 17:08:49] SHIELD ACTIVE: Ghost EDR with Network Telemetry & Kill-Switch online.
+[2026-03-28 17:08:49] !!! KILL-EVENT: cmd.exe (PID: 4924) was terminated.
+[2026-03-28 17:08:50] !!! KILL-EVENT: cmd.exe (PID: 3872) was terminated.
+[2026-03-28 17:08:50] !!! KILL-EVENT: cmd.exe (PID: 3872) was terminated.
+[2026-03-28 17:08:50] !!! KILL-EVENT: cmd.exe (PID: 3872) was terminated.
+[2026-03-28 17:08:52] !!! KILL-EVENT: cmd.exe (PID: 9472) was terminated.
+[2026-03-28 17:08:52] SHIELD ACTIVE: Ghost EDR with Network Telemetry & Kill-Switch online.
+[2026-03-28 17:08:54] !!! KILL-EVENT: cmd.exe (PID: 6660) was terminated.
+[2026-03-28 17:08:55] !!! KILL-EVENT: cmd.exe (PID: 2036) was terminated.
+[2026-03-28 17:13:56] SHIELD ACTIVE: Ghost EDR with Network Telemetry & Kill-Switch online.
+[2026-03-28 17:14:25] SHIELD ACTIVE: Ghost EDR with Network Telemetry & Kill-Switch online.
+[2026-03-28 17:15:53] KILL SWITCH DETECTED: Shutting down EDR safely.
+[2026-03-28 17:31:16] SHIELD ACTIVE: Ghost EDR with Network Telemetry & Kill-Switch online.
+[2026-03-28 17:32:25] !!! BEHAVIORAL BLOCK: Suspicious PowerShell detected!
+[2026-03-28 17:32:25] CMD: c:\windows\system32\windowspowershell\v1.0\powershell.exe -noprofile -windowstyle hidden
+[2026-03-28 17:32:25] !!! COUNTER-MEASURE: Malicious session neutralized.
+[2026-03-28 17:34:29] NETWORK ALERT: [svchost.exe] opened connection to 127.0.0.1:47001
+[2026-03-28 17:36:12] !!! KILL-EVENT: cmd.exe (PID: 10536) was terminated.
+[2026-03-28 17:40:25] SHIELD ACTIVE: Ghost EDR v1.1 (Behavioral Radar + Decoder) online.
+[2026-03-28 17:40:58] !!! BEHAVIORAL BLOCK: Suspicious PowerShell detected!
+[2026-03-28 17:40:58] CMD: c:\windows\system32\windowspowershell\v1.0\powershell.exe -enc dwboag8ayqbtagka
+[2026-03-28 17:40:58] !!! COUNTER-MEASURE: Malicious session neutralized.
+[2026-03-28 17:46:26] SHIELD ACTIVE: Ghost EDR v1.1 (Behavioral Radar + Decoder) online.
+[2026-03-28 17:49:29] KILL SWITCH DETECTED: Shutting down EDR safely.
+[2026-03-28 17:49:29] KILL SWITCH DETECTED: Shutting down EDR safely.
+[2026-03-28 17:49:30] KILL SWITCH DETECTED: Shutting down EDR safely.
+[2026-03-28 17:49:33] SHIELD ACTIVE: Ghost EDR v1.1 (Full Decoder) online.
+[2026-03-28 17:49:55] SHIELD ACTIVE: Ghost EDR v1.1 (Full Decoder) online.
+[2026-03-28 17:52:24] !!! KILL-EVENT: cmd.exe (PID: 6376) terminated.
+[2026-03-28 17:54:24] KILL SWITCH DETECTED: Shutting down.
+[2026-03-28 17:54:24] KILL SWITCH DETECTED: Shutting down.
+[2026-03-28 17:54:28] SHIELD ACTIVE: Ghost EDR v1.1 (Full Decoder) online.
+[2026-03-28 17:55:02] SHIELD ACTIVE: Ghost EDR v1.1 (Full Decoder) online.
+[2026-03-28 17:59:59] KILL SWITCH DETECTED: Shutting down.
+[2026-03-28 18:00:00] KILL SWITCH DETECTED: Shutting down.
+[2026-03-28 18:00:03] SHIELD ACTIVE: Ghost EDR v1.1 (Full Decoder) online.
+[2026-03-28 18:00:04] SHIELD ACTIVE: Ghost EDR v1.1 (Full Decoder) online.
+[2026-03-28 18:00:35] SHIELD ACTIVE: Ghost EDR v1.1 (Full Decoder) online.
+[2026-03-28 18:01:43] SHIELD ACTIVE: Ghost EDR v1.1 (Full Decoder) online.
+[2026-03-28 18:01:58] !!! KILL-EVENT: cmd.exe (PID: 5616) terminated.
+[2026-03-28 18:02:15] !!! KILL-EVENT: cmd.exe (PID: 7944) terminated.
+[2026-03-28 18:02:37] SHIELD ACTIVE: Ghost EDR v1.1 (Full Decoder) online.
+[2026-03-28 18:02:52] !!! KILL-EVENT: cmd.exe (PID: 5664) terminated.
+[2026-03-28 18:07:55] KILL SWITCH DETECTED: Shutting down.
+[2026-03-28 18:07:55] KILL SWITCH DETECTED: Shutting down.
+[2026-03-28 18:07:56] KILL SWITCH DETECTED: Shutting down.
+[2026-03-28 18:07:56] KILL SWITCH DETECTED: Shutting down.
+[18:17:41] --- GHOST EDR v1.1: FULL DECODER ONLINE ---
+[18:31:20] --- GHOST EDR v1.1: FULL DECODER ONLINE ---
+[18:38:44] --- GHOST EDR v1.1: FULL DECODER ONLINE ---
+[18:38:50] --- GHOST EDR v1.1: FULL DECODER ONLINE ---
+[18:43:48] --- GHOST EDR v1.1: FULL DECODER ONLINE ---
+[18:47:53] !!! BEHAVIORAL BLOCK: Encoded PowerShell detected!
+[18:47:53] UNMASKED: whoami
+[18:47:53] FULL CMD: powershell.exe -Command Start-Sleep -s 10; whoami -enc dwBoAG8AYQBtAGkA
+[18:54:01] --- GHOST EDR v1.1: FULL DECODER ONLINE ---
+[2026-03-28 19:02:17] !!! ATTACK PREVENTED: Terminated PID 6124
+[2026-03-28 19:02:17] UNMASKED COMMAND: whoami
+[2026-03-28 19:02:17] !!! ATTACK PREVENTED: Terminated PID 6124
+[2026-03-28 19:02:17] UNMASKED COMMAND: whoami
