@@ -1,52 +1,42 @@
 import os
-import re
-from collections import Counter
 
 LOG_FILE = "C:\\WinEDR\\alerts.log"
 
 def generate_report():
     if not os.path.exists(LOG_FILE):
-        print("No log file found. The Ghost hasn't seen any action yet!")
+        print("[-] No alerts log found. Run a test attack first!")
         return
 
-    with open(LOG_FILE, "r") as f:
-        lines = f.readlines()
+    threat_count = 0
+    print("="*60)
+    print("           GHOST EDR: FORENSIC THREAT REPORT")
+    print("="*60)
+    print(f"{'TIMESTAMP':<22} | {'ACTION':<12} | {'DECODED INTENT'}")
+    print("-"*60)
 
-    # Data Extractors
-    kills = []
-    network_alerts = []
-    
-    for line in lines:
-        # Count Kill Events
-        if "KILL-EVENT" in line:
-            # Extracts the name of the process killed
-            match = re.search(r"KILL-EVENT: (.*?) \(PID", line)
-            if match:
-                kills.append(match.group(1))
-        
-        # Count Network Connections
-        if "NETWORK ALERT" in line:
-            match = re.search(r"opened connection to (.*?):", line)
-            if match:
-                network_alerts.append(match.group(1))
+    try:
+        with open(LOG_FILE, "r") as f:
+            lines = f.readlines()
+            
+            for i in range(len(lines)):
+                line = lines[i].strip()
+                
+                if "TERMINATED:" in line:
+                    threat_count += 1
+                    timestamp = line[1:20]
+                    action = "BLOCKED"
+                    
+                    intent = "Unknown"
+                    if i + 1 < len(lines) and "DECODED INTENT:" in lines[i+1]:
+                        intent = lines[i+1].split("DECODED INTENT:")[1].strip()
+                    
+                    print(f"{timestamp:<22} | {action:<12} | {intent}")
 
-    # --- THE OUTPUT ---
-    print("="*40)
-    print("      GHOST EDR - SECURITY SUMMARY      ")
-    print("="*40)
-    print(f"Total Events Logged: {len(lines)}")
-    print("-"*40)
-    
-    print(f"TERMINATIONS: {len(kills)}")
-    for proc, count in Counter(kills).items():
-        print(f"  - {proc}: {count} times")
-        
-    print("-"*40)
-    print(f"UNIQUE REMOTE CONNECTIONS: {len(set(network_alerts))}")
-    for ip, count in Counter(network_alerts).most_common(5):
-        print(f"  - {ip}: {count} attempts")
-    
-    print("="*40)
+        print("-" * 60)
+        print(f"TOTAL THREATS NEUTRALIZED: {threat_count}")
+        print("=" * 60)
+    except Exception as e:
+        print(f"[-] Error reading log: {e}")
 
 if __name__ == "__main__":
     generate_report()
