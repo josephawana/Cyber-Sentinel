@@ -1,36 +1,24 @@
-🛡️ Project: Ghost EDR (Endpoint Detection & Response)
-Author: Homero "Joseph Awana" Antillon & Gemini
-Goal: To provide a stealthy, self-healing security layer for Windows environments.
+# Cyber-Sentinel: Ghost EDR & Forensic SIEM 🛡️
 
-🚀 Features
-Active Process Termination: Monitors system processes in real-time and kills unauthorized tools (e.g., cmd.exe, calc.exe).
+Cyber-Sentinel is a proactive Windows Endpoint Detection and Response (EDR) tool designed to neutralize obfuscated PowerShell threats and provide automated self-healing capabilities. 
 
-Self-Healing Architecture: Utilizes a "Guardian" watchdog process that automatically restarts the main EDR shield if it is terminated or crashes.
+### 🚀 Core Features
+* **Behavioral Analysis:** Detects and terminates PowerShell processes using Base64 encoding flags (`-enc`, `-e`, etc.).
+* **Command Unmasking:** Automatically decodes hidden PowerShell intents into readable text for forensic auditing.
+* **Triangle of Persistence:** 1. **Launcher (`start_edr.vbs`):** Grants UAC Admin elevation and runs the system in "Ghost Mode" (hidden background processes).
+    2. **Guardian (`guardian.py`):** A watchdog process that monitors the health of the EDR and restarts it instantly if terminated.
+    3. **Shield (`edr_shield.py`):** The main detection engine performing real-time process telemetry.
+* **Forensic Reporting:** Includes a specialized tool (`report_generator.py`) to aggregate threat data into a structured security report.
 
-Stealth Execution: Deployed via VBScript to run in the background without a visible console window.
+### 🛠️ Architecture
 
-Network Telemetry: Logs all outbound IPv4 connections made by new processes for forensic analysis.
 
-Authorized Kill-Switch: Features a secure, file-based emergency shutdown mechanism to prevent "Zombie" process loops.
+### 📂 Directory Structure
+- `C:\WinEDR\edr_shield.py` - Detection & Termination Engine
+- `C:\WinEDR\guardian.py` - Watchdog / Self-Healing
+- `C:\WinEDR\start_edr.vbs` - Stealth Admin Launcher
+- `C:\WinEDR\report_generator.py` - Forensic SIEM Reporter
+- `C:\WinEDR\alerts.log` - Raw JSON-ready security logs
 
-Automated Analytics: Includes a Python-based reporting tool to summarize kill events and network traffic.
-
-📂 File Structure
-edr_shield.py: The core logic for monitoring and enforcement.
-
-guardian.py: The persistence layer (Watchdog).
-
-start_edr.vbs: The stealth launcher.
-
-report_generator.py: The SOC analytics tool.
-
-alerts.log: The forensic evidence database.
-
-🧪 Technical Skills Demonstrated
-Systems Programming: Windows process management and WMI queries.
-
-Cyber Resilience: Implementing redundancy and anti-tamper mechanisms.
-
-Network Security: Socket-level telemetry and IP tracking.
-
-Automation: Scripting the "Blue Team" workflow from deployment to reporting.
+### 🛡️ Vision
+My goal is to **Save the World through Internet Safety**, creating tools that allow others to enjoy the internet without the fear of being hacked or scammed.
